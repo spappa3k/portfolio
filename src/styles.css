@@ -1,11 +1,17 @@
 header{
-    height: 100px;
+    height: 90px;
     border: 2px solid black;
+    padding-top: 23px;
 }
 
 .logo, .menu {
     display: block;
     align-items: center;
     height: 100%; 
+  }
+
+  .logo img{
+    width: 46px;
+    height: auto;
   }
 
