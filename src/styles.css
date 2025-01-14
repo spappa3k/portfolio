@@ -5,16 +5,25 @@ header {
     border: 2px solid black;
     padding-top: 20px;
   }
+
+  .logo{
+    position: relative;
+    right: 90px;
+    top: 6px;
+  }
   
   .logo img {
-    width: 46px;
+    width: 47px;
     height: auto;
   }
   
   .logo p {
     font-family: "Work Sans", sans-serif;
-    font-size: 1.35em;
+    font-size: 1.37em;
     font-weight: 600;
+    position: relative;
+    top: 10px;
+    margin-left: 24px;
     
   }
   
@@ -23,6 +32,10 @@ header {
     font-family: "Work Sans", sans-serif;
     font-size: 1em;
     font-weight: 400;
+  }
+
+  header .container{
+    padding-left: 50px;
   }
   
 
